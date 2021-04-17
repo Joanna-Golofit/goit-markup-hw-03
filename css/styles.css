@@ -1,0 +1,296 @@
+:root {
+  --main-font: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  --secondary-font: 'Raleway', 'Verdana', 'Tahoma', sans-serif;
+  --main-color: #212121;
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --gray-color: #757575;
+  --background-color-dark: #2f303a;
+  --background-color-gray: #f5f4fa;
+  --opacity-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+
+
+/* ======= COMPONENTS ======= */
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.logo-blue {
+  color: var(--blue-color);
+}
+
+.address-list-link,
+.menu-navigation-list-link,
+.logo-link,
+.menu-contacts-list-link {
+  text-decoration: none;
+}
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ======= END COMPONENTS ======= */
+
+
+
+}
+
+/* ======= <HEADER> (MENU NAVIGATION) ======= */
+
+.container {
+  background-color: yellow;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-navigation,
+.menu-navigation-list,
+.menu-contacts-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-navigation-list-link,
+.menu-contacts-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.menu-contacts-list-link {
+  color: var(--gray-color);
+}
+
+.menu-navigation-list-link:hover,
+.menu-navigation-list-link:focus,
+.menu-contacts-list-link:hover,
+.menu-contacts-list-link:focus,
+.active-link {
+  color: var(--blue-color);
+}
+
+/* ======= END <HEADER> (MENU NAVIGATION) ======= */
+
+/* ======= <MAIN> (HEADER)  ======= */
+
+
+
+.background-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--background-color-dark);
+  width: 1600px;
+  height: 600px;
+}
+
+.main-header {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.order-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: .06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ======= END <MAIN> (HEADER) ======= */
+
+/* ======= WHY US ======= */
+
+.article-list {
+  display: flex;
+}
+
+.article-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.article-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+/* ======= END WHY US ======= */
+
+/* ======= OFFER ======= */
+
+.offer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ======= END OFFER ======= */
+
+/* ======= TEAM ======= */
+
+.team-list {
+  display: flex;
+}
+
+.team {
+  background-color: var(--background-color-gray);
+  /*  width: 1600px;
+  height: 648px;*/
+}
+
+.team-list {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list-position {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--gray-color);
+}
+/* ======= END TEAM ======= */
+
+/* =======  CONTACT ======= */
+
+.contact-container {
+  margin: 60px auto 60px 215px;
+}
+
+/* .address-list  */
+
+.contact {
+  display: flex;
+
+  background-color: var(--background-color-dark);
+  width: 1600px;
+  height: 252px;
+}
+
+.address-list-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--opacity-color);
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--blue-color);
+}
+
+.white {
+  color: var(--white-color);
+}
+
+/* ======= END CONTACT ======= */
+
+/* ===================== portfolio ===================== */
+
+/* ======= PORTFOLIO ======= */
+
+.filter-btn {
+  background-color: var(--background-color-gray);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.active-btn {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+.examples-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-list-category {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--gray-color);
+}
+/* ======= END PORTFOLIO ======= */
