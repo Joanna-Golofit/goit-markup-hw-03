@@ -75,10 +75,6 @@ img {
 
 /* ======= <HEADER> (MENU NAVIGATION) ======= */
 
-.main-page {
-  /* width: 1600px; */
-}
-
 .header .container {
   display: flex;
   align-items: center;
@@ -201,6 +197,10 @@ img {
 /* ======= END <MAIN> (HEADER) ======= */
 
 /* ======= WHY US ======= */
+
+.why-us.section {
+  padding-bottom: 0;
+}
 
 .why-us .container {
   display: flex;
