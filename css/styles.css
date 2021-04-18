@@ -65,6 +65,8 @@ img {
 .container {
   width: 1200px;
   padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ======= END COMPONENTS ======= */
@@ -74,7 +76,7 @@ img {
 /* ======= <HEADER> (MENU NAVIGATION) ======= */
 
 .main-page {
-  width: 1600px;
+  /* width: 1600px; */
 }
 
 .header .container {
@@ -388,14 +390,28 @@ img {
 
 /* =======  FILTERS  ======= */
 
+.portfolio.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .filters-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 653px;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
   background-color: var(--background-color-gray);
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;  
 }
 
 .filter-btn:hover,
@@ -404,6 +420,10 @@ img {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
+
+
+}
+
 
 .examples-list-title {
   font-weight: 700;
@@ -437,4 +457,10 @@ img {
 
 .examples-list-category {
     text-align: center;
+}
+
+.examples-list-item {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+
 }
