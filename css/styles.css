@@ -147,7 +147,9 @@ img {
 
 /* ======= <MAIN> (HEADER)  ======= */
 
-
+.background-header {
+  background-color: var(--background-color-dark);
+}
 
 .background-header .container {
   display: flex;
@@ -155,9 +157,9 @@ img {
   justify-content: center;
   align-items: center;
   
-  background-color: var(--background-color-dark);
+/*   
   width: 1600px;
-  border: 1px solid #000;
+  border: 1px solid #000; */
 }
 
 .main-header {
