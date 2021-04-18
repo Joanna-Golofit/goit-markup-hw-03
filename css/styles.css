@@ -277,7 +277,7 @@ img {
 /* ======= TEAM ======= */
 
 .team-list-item {  
-  background-color: #fff;
+  background-color: var(--white-color);
   width: 270px;
   display: flex;
   flex-direction: column;
@@ -375,7 +375,7 @@ img {
 }
 
 .address-list-item:nth-child(2) {
-  margin: 9px 0
+  margin: 9px 0;
 }
 
 .address-list-link:hover,
@@ -425,10 +425,6 @@ img {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
-
-
-}
-
 
 .examples-list-title {
   font-weight: 700;
